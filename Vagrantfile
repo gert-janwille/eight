@@ -29,7 +29,7 @@ Vagrant.configure(API_VERSION) do |config|
     apt-get update
     apt-get install -y git
     curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-    apt-get install -y nodejs nasm make build-essential grub qemu
+    apt-get install -y nodejs nasm make build-essential grub qemu xorriso
     npm install -g npm
     apt-get update
     apt-get upgrade -y
